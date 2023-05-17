@@ -1,0 +1,27 @@
+{
+    "name": "aleia/laravel-menu",
+    "description": "Laravel database menu manager",
+    "license": "MIT",
+    "keywords": ["menu","laravel","laravel-menu", "menu-manager", "laravel-menu-manager"],
+    "authors": [
+        {
+            "name": "Nupur Bora",
+            "homepage": "https://github.com/nupurbora-aleia"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^8.71|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "aleia\\LaravelMenu\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "aleia\\LaravelMenu\\MenuServiceProvider"
+            ]
+        }
+    }
+}
