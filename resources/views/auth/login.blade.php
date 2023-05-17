@@ -31,13 +31,16 @@
                                 required autocomplete="current-password" />
 
                 <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                <!-- <i class="bi bi-eye-slash" id="togglePassword"></i> -->
+                <!-- <input id="show_pass" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500" name="show_pass">
+                <span class="ml-2 text-sm text-gray-600">{{ __('Show Password') }}</span> -->
             </div>
 
             <!-- Remember Me -->
             <div class="block mt-4">
                 <label for="remember_me" class="inline-flex items-center">
-                    <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500" name="remember">
-                    <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
+                    <input id="show_pass" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500" name="show_pass">
+                    <span class="ml-2 text-sm text-gray-600">{{ __('Show Password') }}</span>
                 </label>
             </div>
 
